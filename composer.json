@@ -1,0 +1,32 @@
+{
+    "name": "martin-rubi-tmp/youbim-technical-test",
+    "description": "A technical test for a PHP position in Youbim",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Rubi",
+            "email": "martinrubi@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    },
+    "require": {
+        "gabordemooij/redbean": "dev-master",
+        "rakit/validation": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Youbim\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "call ./vendor/bin/phpunit tests/ --bootstrap vendor/autoload.php"
+    }
+}
