@@ -9,7 +9,7 @@ In the app composer add
 ```json
 "require": {
     ...
-    "martin-rubi-tmp/youbim-technical-test": "dev-master",
+    "martin-rubi-tmp/youbim-technical-test": "0.0.2",
     ...
 },
 
