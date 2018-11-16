@@ -15,8 +15,8 @@
         }
     },
     "require": {
-        "gabordemooij/redbean": "dev-master",
-        "rakit/validation": "*"
+        "gabordemooij/redbean": "^5.1",
+        "rakit/validation": "0.22.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.4"

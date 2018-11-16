@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78cdf40ac1316548e4a57f889bdc391d",
+    "content-hash": "a31d813f8801b1db7fa79d7dc33f420a",
     "packages": [
         {
             "name": "gabordemooij/redbean",
-            "version": "dev-master",
+            "version": "v5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gabordemooij/redbean.git",
@@ -1500,9 +1500,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "gabordemooij/redbean": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
